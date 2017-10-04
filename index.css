@@ -1,0 +1,14 @@
+text {
+	font-family: OpenSans;
+	font-size: .75em;
+}
+
+.axis--x path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
