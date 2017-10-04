@@ -40,3 +40,7 @@ V3 and V4 really have some big differences it took me some time to figure these 
 
 I'm especially proud about the fact that I figured a lot of things out in such a short time.
 Although I'm sure I could've develiverd a better product if I had more time.
+
+## License
+
+Released under the GNU General Public License, version 3.
