@@ -1,14 +1,56 @@
-text {
-	font-family: OpenSans;
-	font-size: .75em;
+body {
+	background-color: #2D2A32;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+	margin-top: 10%;
+	flex-direction: column;
+
 }
 
-.axis--x path {
-  display: none;
+text {
+	font-family: OpenSans;
+	font-size: 1.5em;
+	fill: white;
 }
+
+p {
+	margin:0 auto;
+	font-family: OpenSans;
+	font-weight: 800;
+	color: white;
+}
+
+.domain {
+	stroke: white;
+	stroke-width:2pt;
+	z-index: 1;
+}
+
 
 .line {
   fill: none;
-  stroke: steelblue;
-  stroke-width: 1.5px;
+  stroke: crimson !important; 
+  stroke-width: 1pt;
+  overflow: hidden;
 }
+
+line {
+	stroke:white;
+}
+
+.tick:nth-child(16) > line {
+	display:none;
+
+}
+
+.tick > line {
+
+}
+
+.tick > text {
+	font-size: 1.5em;
+}
+
+path > 
+
